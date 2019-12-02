@@ -1,5 +1,5 @@
 import React from 'react';
-import PropTypes from 'prop-types';
+// import PropTypes from 'prop-types';
 import { Link } from 'react-router-dom';
 
 const Navbar = ({ icon, title }) => {
@@ -26,9 +26,9 @@ Navbar.defaultProps = {
   icon: 'fab fa-github p'
 };
 
-Navbar.propTypes = {
-  title: PropTypes.string.isRequired,
-  icon: PropTypes.string.isRequired
-};
+// Navbar.propTypes = {
+//   title: PropTypes.string.isRequired,
+//   icon: PropTypes.string.isRequired
+// };
 
 export default Navbar;
